@@ -1,0 +1,180 @@
+/*---------Основные стили-----------*/
+
+.main-app__wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+.main-app {
+    width:100%;
+    display: block;
+    position: relative;
+    display: flex;
+}
+.app {
+    width: 70%;
+    position: relative;
+
+    display: block;
+}
+
+
+.app-bar {
+
+    width: 30%;
+    position: relative;
+
+}
+
+
+/*---------- стили рабочие ---------------*/
+
+.app-fon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(img/fon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -10;
+}
+
+.app-potolok__shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(img/shadd.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    height: 500px;
+    width: 100%;
+    z-index: 40;
+
+}
+.app-potolok__oboi {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #BD3F32;
+    mask: url(img/potolok.png) center / contain;
+    -webkit-mask: url(img/potolok.png) center / contain;
+
+    height: 500px;
+    width:100%;
+    z-index: 0;
+
+}
+
+.app-pol__oboi {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background-color: blue;
+    mask: url(img/pol.png) center / contain;
+    -webkit-mask: url(img/pol.png) center / contain;
+    height: 500px;
+    width: 100%;
+    z-index: 10;
+
+}
+
+.app-oboi {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background-color: green;
+    height: 500px;
+    width: 100%;
+    z-index: -20;
+
+}
+
+.app-oboi__1 {
+
+    background: #2e6ebf;
+    position: absolute;
+    left: 0;
+    top: 82px;
+    width: 110px;
+    height: 416px;
+    z-index: -3;
+}
+.app-oboi__2{
+    background:  #2e6ebf;
+    position: absolute;
+    left: 110px;
+    top: 82px;
+    width: 139px;
+    height: 416px;
+    z-index: -4;
+    -webkit-clip-path: polygon(0% 0%, 94% 25%, 100% 90%, 0% 98%);
+    clip-path: polygon(0% 0%, 94% 25%, 100% 90%, 0% 98%);
+}
+.app-oboi__3{
+    background: #2e6ebf;
+    position: absolute;
+    left: 241px;
+    top: 193px;
+    width: 100px;
+    height: 239px;
+    z-index: -5;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+.app-oboi__4{
+    background: #2e6ebf;
+    position: absolute;
+    left: 341px;
+    top: 193px;
+    width: 208px;
+    height: 239px;
+    z-index: -6;
+}
+.app-oboi__5{
+    background: #2e6ebf;
+    position: absolute;
+    left: 548px;
+    top: 193px;
+    width: 100px;
+    height: 239px;
+    z-index: -7;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+.app-oboi__6{
+    background:  #2e6ebf;
+    position: absolute;
+    left: 647px;
+    top: 19px;
+    width: 253px;
+    height: 505px;
+    z-index: -1;
+    -webkit-clip-path: polygon(0% 35%, 107% 0%, 100% 100%, 0% 84%)!important;
+    clip-path: polygon(0% 35%, 107% 0%, 100% 100%, 0% 84%)!important;
+
+}
+
+
+
+.app-color__level1, .block-color__oboi {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);
+    color: yellow;
+    height: 500px;
+    width:100%;
+    z-index: 60;
+}
